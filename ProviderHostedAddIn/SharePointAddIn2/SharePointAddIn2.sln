@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointAddIn2", "SharePointAddIn2.csproj", "{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointAddIn2Web", "..\SharePointAddIn2Web\SharePointAddIn2Web.csproj", "{1CE07410-E1DF-444C-B336-3CB099E80BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA3ACD3-0CD3-4312-99E5-B5EF199F3686}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1CE07410-E1DF-444C-B336-3CB099E80BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE07410-E1DF-444C-B336-3CB099E80BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE07410-E1DF-444C-B336-3CB099E80BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE07410-E1DF-444C-B336-3CB099E80BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6630D0E-7EE8-4DC7-B331-F6E9410014BE}
+	EndGlobalSection
+EndGlobal
