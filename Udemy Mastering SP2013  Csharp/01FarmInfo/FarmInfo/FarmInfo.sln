@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmInfo", "FarmInfo.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetsCreation", "..\AssetsCreation\AssetsCreation.csproj", "{736D934D-DFDE-4F0A-BABE-660C22E525C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetsCreationFeature", "..\AssetsCreationFeature\AssetsCreationFeature.csproj", "{32356485-89BC-4DED-AD2C-35AD2CCA412B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{736D934D-DFDE-4F0A-BABE-660C22E525C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{736D934D-DFDE-4F0A-BABE-660C22E525C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{736D934D-DFDE-4F0A-BABE-660C22E525C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32356485-89BC-4DED-AD2C-35AD2CCA412B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

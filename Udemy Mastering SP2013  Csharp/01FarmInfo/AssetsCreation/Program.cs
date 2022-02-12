@@ -13,33 +13,30 @@ namespace AssetsCreation
     static void Main(string[] args)
     {
 
-      /***
-       *
-       *  Creation of a Site in already created Web Application
-       * 
-      SPSite site = new SPSite("https://server-quarto/");
+      // Creation of a Site in already created Web Application
+      /*
+      SPSite site = new SPSite("http://server-quarto:1010/");
       SPWebApplication webapp = site.WebApplication;
 
       webapp.Sites.Add("/sites/Training",
         "Training Site",
         "Training Udemy CSOM Sharepoint",
-        1033, 
+        1033,
         "STS#0",
         @"IKARO\Administrator",
         "Administrator",
         "Administrator@ikarodeveloper.com");
-
-      */
-
-
-      /***
-       *  Creations of Web in our recently created Site 
-       *  
-      SPSite site = new SPSite("https://server-quarto/sites/Training");
-      SPWeb web = site.AllWebs.Add("BrandNewBlogSite", "Blog Site", "Some Description", 1033, "BLOG#0", false, false);
-
       Console.WriteLine("Blog site has been Created");
+
       */
+
+
+      //  Creations of Web in our recently created Site 
+
+      SPSite site = new SPSite("http://server-quarto:1010/sites/Training");
+      SPWeb web = site.AllWebs.Add("BrandNewBlogSite", "Blog Site", "Some Description", 1033, "BLOG#0", false, false);
+      Console.WriteLine("Blog site has been Created");
+
 
       Console.ReadKey();
     }
