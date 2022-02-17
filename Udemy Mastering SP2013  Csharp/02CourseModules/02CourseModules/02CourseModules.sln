@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02CourseModules", "02Course
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04SOMCoreCollections", "..\04SOMCoreCollections\04SOMCoreCollections.csproj", "{342FF2E8-B805-4B3A-8605-F12F4ACE7911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05WorkingWithLists", "..\05WorkingWithLists\05WorkingWithLists.csproj", "{D059D358-2691-4E92-B174-4C3898391C05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{342FF2E8-B805-4B3A-8605-F12F4ACE7911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342FF2E8-B805-4B3A-8605-F12F4ACE7911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{342FF2E8-B805-4B3A-8605-F12F4ACE7911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D059D358-2691-4E92-B174-4C3898391C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D059D358-2691-4E92-B174-4C3898391C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D059D358-2691-4E92-B174-4C3898391C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D059D358-2691-4E92-B174-4C3898391C05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
