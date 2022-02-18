@@ -15,10 +15,11 @@ namespace _05WorkingWithLists
       SPSite site = new SPSite("http://server-quarto:1010/sites/Training");
       SPWeb web = site.OpenWeb();
 
-      /*Scritp to check list exists and create
+      //Scritp to check list exists and create
       Console.WriteLine("Digite o nome de lista:");
       string listName =  Console.ReadLine();
       Console.WriteLine(listName);
+
 
       
       SPList listCreatedByUser = null;
@@ -28,7 +29,7 @@ namespace _05WorkingWithLists
 
         listCreatedByUser = web.Lists[listGuidUser];
       }
-      */
+      //
 
       /*Script to create list
       Guid listGuid = web.Lists.Add("Contacts List4", "Contacts List created through code", SPListTemplateType.Contacts);
@@ -56,7 +57,7 @@ namespace _05WorkingWithLists
       Console.WriteLine("item Criado.");
       */
 
-      //Script for reading List Items
+      /*Script for reading List Items
       SPList listToRead = web.Lists["TestList"];
 
       foreach(SPListItem item in listToRead.Items)
@@ -64,7 +65,7 @@ namespace _05WorkingWithLists
         Console.WriteLine($" Title: {item["Title"]} Amount: {item["Amount"]}");
       }
       Console.ReadKey();
-      //
+      */
 
       /*Script to reading queried items 
       SPQuery query = new SPQuery();
