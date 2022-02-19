@@ -52,6 +52,9 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\Feature1\Feature1.EventReceiver.cs">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -71,11 +74,17 @@
       <FeatureId>{cacddc4c-9a1f-4cd3-92f5-447c61d839ca}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="MCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{590c77eb-7495-45bf-bf89-71ee14c9fb0e}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{adffa496-998b-4b3d-8aac-d7dc0800ac88}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="StudentsList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{458d14d9-4b8c-4745-8ff8-7520e1b63b57}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup />
@@ -88,6 +97,8 @@
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
+    <Content Include="MCT\Elements.xml" />
+    <Content Include="StudentsList\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
