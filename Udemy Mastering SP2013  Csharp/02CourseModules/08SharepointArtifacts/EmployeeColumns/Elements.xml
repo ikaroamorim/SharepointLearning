@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{AB3F14C0-361E-4C8B-B473-738770EFB6DD}"
+       Name="EmployeeName"
+       DisplayName="Employee Name"
+       Type="Text"
+       Required="TRUE"
+       Group="Employee Site Columns">
+  </Field>
+  <Field
+       ID="{341C3C6E-0B18-4F0A-A7B1-11EB0647FF27}"
+       Name="EmployeeScn"
+       DisplayName="Employee Social Security Number"
+       Type="Number"
+       Decimals="0"
+       NegativeFormat="MinusSign"
+       Required="TRUE"
+       Group="Employee Site Columns">
+  </Field>
+  <Field
+       ID="{A34FB0CD-774A-4CDB-82A9-ABF3D3BF55ED}"
+       Name="EmployeeManager"
+       DisplayName="Employee Manager"
+       Type="User"
+       UserSelectionMode="PeopleOnly"
+       Required="TRUE"
+       Group="Employee Site Columns">
+  </Field>
+  <Field
+       ID="{BBC477E4-9C2E-4D8F-9BC5-BE7D2BE554CA}"
+       Name="EmployeeStatus"
+       DisplayName="Employee Status"
+       Type="Choice"
+       Required="TRUE"
+       Group="Employee Site Columns">
+    <CHOICES>
+      <CHOICE>Active</CHOICE>
+      <CHOICE>Inactive</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>
