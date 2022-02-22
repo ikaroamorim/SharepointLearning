@@ -53,6 +53,12 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\Feature1\Feature1.EventReceiver.cs">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Feature3\Feature3.EventReceiver.cs">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,9 @@
     </None>
     <None Include="Features\Feature2\Feature2.feature">
       <FeatureId>{071b32a4-c90f-449a-a0aa-5a07d0c04f31}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{4bd91328-827e-4f8a-96b4-1cb5525e1ac0}</FeatureId>
     </None>
     <None Include="key.snk" />
     <None Include="LibDocuments\SharePointProjectItem.spdata">
@@ -83,6 +92,9 @@
     </Content>
     <Content Include="Features\Feature2\Feature2.Template.xml">
       <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
     </Content>
     <Content Include="LibDocuments\Elements.xml" />
     <Content Include="LibDocuments\logfile.txt" />
