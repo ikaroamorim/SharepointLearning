@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100419C2DBA73664876A3265DECC852213F" Name="Employee Content Type" Group="Employee" Description="Employee Content Type" Inherits="TRUE" Version="0" ReadOnly="FALSE" Hidden="FALSE">
+    <FieldRefs>
+      <FieldRef ID="{AB3F14C0-361E-4C8B-B473-738770EFB6DD}" DisplayName="Employee Name" Required="TRUE" Name="EmployeeName" />
+      <FieldRef ID="{341C3C6E-0B18-4F0A-A7B1-11EB0647FF27}" DisplayName="Employee Social Security Number" Required="TRUE" Name="EmployeeScn" />
+      <FieldRef ID="{A34FB0CD-774A-4CDB-82A9-ABF3D3BF55ED}" DisplayName="Employee Manager" Required="TRUE" Name="EmployeeManager" />
+      <FieldRef ID="{BBC477E4-9C2E-4D8F-9BC5-BE7D2BE554CA}" DisplayName="Employee Status" Required="TRUE" Name="EmployeeStatus" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

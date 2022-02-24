@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="0EC632A1-E3E3-49CF-B8BE-DBDD772F3ED6"
+                Description="Click here to go to CA"
+                Location="Microsoft.Sharepoint.StandardMenu"
+                GroupId="SiteActions"
+                Sequence="50"
+                Title="Goto CA"
+                >
+
+    <UrlAction Url="http://server-quarto:9999/"/>
+    
+  </CustomAction>
+</Elements>

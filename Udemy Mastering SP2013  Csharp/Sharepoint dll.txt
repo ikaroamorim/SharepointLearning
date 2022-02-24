@@ -1,1 +1,9 @@
+Para referenciar a dll do Sharepoint, basta acessar esse endereço
 C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.dll
+
+Configurar o projeto para buildar em 64-bit, indo na aba de build do projeto.
+
+SPFarm > SPService > SPWebApplication > SPSite > SPWeb > SPList
+
+
+Na feature foi necessaário criar um event receiver.
